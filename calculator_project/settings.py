@@ -8,6 +8,10 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'django-d385.onrender.com']
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-d385.onrender.com"
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
